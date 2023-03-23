@@ -17,10 +17,10 @@ void FileRead(multimap<string, int> &mp)
         string line;
         while (getline(File, line))
         {
-            istringstream iss(line);//разделение слов 
+            istringstream iss(line);
             while (iss >> line)
             {
-                auto it = mp.find(line);// если не найдено, возвращает end()
+                auto it = mp.find(line)//return  end()
                 if (it != mp.end()) 
                 {
                     it->second++;
