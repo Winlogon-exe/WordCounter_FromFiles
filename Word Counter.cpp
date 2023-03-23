@@ -27,7 +27,7 @@ void FileRead(multimap<string, int> &mp)
                 }
                 else 
                 {
-                    mp.insert(make_pair(line,1)); // если не найдено,создаем
+                    mp.insert(make_pair(line,1)); // если не найдено
                 }
             }
         }
